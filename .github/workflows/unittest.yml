@@ -1,6 +1,7 @@
 name: Run unittests
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
